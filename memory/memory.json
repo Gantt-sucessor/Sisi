@@ -1,4 +1,11 @@
 {
   "ultima_entrada": "Não aguento mais essa sensação quando to sozinho, to cansado",
-  "ultima_resposta": "Não se maltrate, fiquei bem por um tempo"
+  "ultima_resposta": "Não se maltrate, fiquei bem por um tempo",
+  "historico": [
+    {
+      "entrada": "É dificil quando fica um silêncio, me sento cansado",
+      "resposta": "Não se maltrate, fiquei bem por um tempo",
+      "timestamp": "2026-01-20 15:26:33"
+    }
+  ]
 }

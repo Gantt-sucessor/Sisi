@@ -19,6 +19,7 @@
 
 
 import json
+from datetime import datetime
 
 # ---- CARREGAMENTO DE CONFIGURAÇÕES ----
 
@@ -56,8 +57,17 @@ def executarAcao(resposta):
     print(f"Sisi: {resposta}")
 
 def registrarMemoria(memoria, entrada, resposta):
-    memoria["ultima_entrada"] = entrada
-    memoria["ultima_resposta"] = resposta
+    
+    if "historico" not in memoria:
+        memoria["historico"] = []
+
+    evento ={
+        "entrada": entrada,
+        "resposta": resposta,
+        "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    }
+
+    memoria["historico"].append(evento)
 
     with open("memory/memory.json", "w", encoding="utf-8") as f:
         json.dump(memoria, f, indent=2, ensure_ascii=False)
