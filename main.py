@@ -48,9 +48,20 @@ def interpretarEntrada(entrada):
     return entrada.lower()
 
 
-def decidirAcao(interpretacao):
+def decidirAcao(interpretacao, memoria):
+
+    historico = memoria.get("historioco", [])
+
+    cansado_count = sum(
+        1 for evento in historico[-5:]
+        if "cansado" in evento["entrada"].lower()
+    )
+
     if "cansado" in interpretacao:
-        return "Não se maltrate, fiquei bem por um tempo"
+        if cansado_count >= 2:
+            return "Você tem repetido isso bastante. Talvez seja hora de descansar de verdade."
+        return "Não se maltrate, fiquei bem por um tempo."
+    
     return "Continue indo meu mano. Um passo de cada vez."
 
 def executarAcao(resposta):
@@ -94,7 +105,7 @@ def iniciarSisi():
             break
 
         interpretacao = interpretarEntrada(entrada)
-        decisao = decidirAcao(interpretacao)
+        decisao = decidirAcao(interpretacao, memoria)
         executarAcao(decisao)
         registrarMemoria(memoria, entrada, decisao)
 
