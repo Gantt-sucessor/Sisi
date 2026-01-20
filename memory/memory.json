@@ -11,6 +11,56 @@
       "entrada": "To cansado",
       "resposta": "Não se maltrate, fiquei bem por um tempo",
       "timestamp": "2026-01-20 15:29:55"
+    },
+    {
+      "entrada": "O estágio está me deixando bastante cansado",
+      "resposta": "Não se maltrate, fiquei bem por um tempo.",
+      "timestamp": "2026-01-20 15:59:12"
+    },
+    {
+      "entrada": "To cansado",
+      "resposta": "Não se maltrate, fiquei bem por um tempo.",
+      "timestamp": "2026-01-20 15:59:27"
+    },
+    {
+      "entrada": "Me canso demais",
+      "resposta": "Continue indo meu mano. Um passo de cada vez.",
+      "timestamp": "2026-01-20 15:59:40"
+    },
+    {
+      "entrada": "To me cansando demais",
+      "resposta": "Continue indo meu mano. Um passo de cada vez.",
+      "timestamp": "2026-01-20 15:59:50"
+    },
+    {
+      "entrada": "Oi, to muito cansado ultimamente",
+      "resposta": "Não se maltrate, fiquei bem por um tempo.",
+      "timestamp": "2026-01-20 16:00:12"
+    },
+    {
+      "entrada": "To cansado",
+      "resposta": "Não se maltrate, fiquei bem por um tempo.",
+      "timestamp": "2026-01-20 16:00:21"
+    },
+    {
+      "entrada": "Muito cansado",
+      "resposta": "Não se maltrate, fiquei bem por um tempo.",
+      "timestamp": "2026-01-20 16:00:27"
+    },
+    {
+      "entrada": "Cansado",
+      "resposta": "Não se maltrate, fiquei bem por um tempo.",
+      "timestamp": "2026-01-20 16:01:08"
+    },
+    {
+      "entrada": "Muito cansado",
+      "resposta": "Não se maltrate, fiquei bem por um tempo.",
+      "timestamp": "2026-01-20 16:01:20"
+    },
+    {
+      "entrada": "Oi, to ficando bastante cansado ultimamente",
+      "resposta": "Você tem repetido isso bastante. Talvez seja hora de descansar de verdade.",
+      "timestamp": "2026-01-20 16:03:02"
     }
   ]
 }

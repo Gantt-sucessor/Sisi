@@ -50,7 +50,7 @@ def interpretarEntrada(entrada):
 
 def decidirAcao(interpretacao, memoria):
 
-    historico = memoria.get("historioco", [])
+    historico = memoria.get("historico", [])
 
     cansado_count = sum(
         1 for evento in historico[-5:]
